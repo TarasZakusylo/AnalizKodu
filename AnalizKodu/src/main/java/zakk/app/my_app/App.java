@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 class Reader extends JFrame {
 
-	JFrame Reader = new JFrame("Diploma0.2");
+	JFrame Reader = new JFrame("Інформаційна технологія захисту вмісту контенту");
 
 	JButton Vhid = new JButton("Почати роботу");
 	JLabel Pusto, l_Text1, l_Text2;
@@ -36,14 +36,14 @@ class Reader extends JFrame {
 		add(l_logo);
 
 		l_Text1 = new JLabel("Iнформаційна технологія захисту");
-		l_Text1.setFont(new Font("Serif", Font.ITALIC | Font.BOLD, 20));
+		l_Text1.setFont(new Font("Serif", Font.ITALIC | Font.BOLD, 25));
 		l_Text1.setForeground(Color.BLUE);
-		l_Text1.setBounds(155, 20, 500, 155);
+		l_Text1.setBounds(175, 20, 500, 155);
 		add(l_Text1);		
 
 		l_Text2 = new JLabel("вмісту контенту");
-		l_Text2.setFont(new Font("Serif", Font.ITALIC | Font.BOLD, 20));
-		l_Text2.setBounds(220, 50, 500, 155);		
+		l_Text2.setFont(new Font("Serif", Font.ITALIC | Font.BOLD, 25));
+		l_Text2.setBounds(250, 50, 500, 155);		
 		l_Text2.setForeground(Color.BLUE);
 		add(l_Text2);
 
@@ -70,7 +70,7 @@ class Reader extends JFrame {
 
 public class App {
 	public static void main(String[] args) {
-		Reader r = new Reader("Diploma0.2");
+		Reader r = new Reader("Інформаційна технологія захисту вмісту контенту");
 
 		r.setVisible(true);
 		r.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
